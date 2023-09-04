@@ -31,7 +31,7 @@ const n1 = answers.n1;
 const n2 = answers.n2;
 const selectedOperators: string[] = answers.op;
 if ( isNaN(n1) || isNaN(n2))
-{console.log(`Invalid Input! Only Numbers Allowed!`)}
+{console.log(`Invalid Input! Only Numbers Allowed.`)}
 else {
 selectedOperators.forEach((operation:string) => {
     if (operations[operation as keyof typeof operations]) {
